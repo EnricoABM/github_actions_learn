@@ -1,0 +1,13 @@
+name: 'First Flow'
+
+on: workflow_dispatch
+
+jobs:
+  simple:
+    name: 'First Flow'
+    runs-on:
+      - ubuntu-20.04
+    steps:
+      - name: "Simple Step"
+        run: 
+          "echo 'Hello World'"
